@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 01</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/fb0235c890.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        .banner, .about{
+            position: relative;
+            min-height: 100vh;
+        }
+        .banner{
+            background-image: url(/banner.jpg);
+            background-size: cover;
+        }
+        .content{
+            padding: 120px 100px;
+        }
+
+        .display-1{
+            font-size: 3rem;
+        }
+
+        .social label a{
+            font-size: 25px;
+            margin: 0 3px;
+            color: #ffffff; 
+        }
+        
+        .copy {
+            font-size: 14px;
+        }
+
+        @media (min-width: 576px){
+            .display-1{
+                font-size: 6rem;
+            }
+            .section-content{
+                padding: 100px 0;
+            }
+            .copy, .social{
+                padding-top: 10px;
+                line-height: 30px;
+            }
+            .social label a{
+                font-size: 30px;
+            }
+        }
+    </style>
+    <header>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Logo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="content col text-center ">
+                        <h1 class="display-1">Welcome</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo.</p>
+                        <button class="btn btn-info">Leer mas</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about pt-3">
+            <div class="container">
+                <div class="row section-content">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="/banner2.jpg" alt="imagen" class="img-fluid pt-md-5 pt-lg-3">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="display-4">Quienes Somos?</p>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste corporis placeat dicta eos. Exercitationem aspernatur ipsam laboriosam laborum porro numquam facere nam corporis dolorem. Voluptatum eaque fugit ab nisi nemo, aliquam eum illo ex ratione et cupiditate doloremque odio minus aperiam eveniet saepe praesentium!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white">
+<div class="row">
+    <div class="social col-sm-12 col-md-6 social text-center">
+        <label><a href="#"><i class="fab fa-facebook"></i></a></label>
+        <label><a href="#"><i class="fab fa-instagram"></i></a></label>
+        <label><a href="#"><i class="fab fa-google"></i></a></label>
+    </div>
+    <div class="copy col-sm-12 col-md-6">
+        <p class="text-center"> Maximiliano P. &copy;2021 Web Developer</p>
+    </div>
+</div>
+    </footer>
+</body>
+</html>
