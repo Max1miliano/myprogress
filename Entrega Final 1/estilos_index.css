@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-color: antiquewhite;
+}
+body header {
+    border-bottom: 2px solid green;
+    height: 45px;
+    background-color: #ffffff;
+}
+header .logo {
+    width: 133px;
+    height: 45px;
+    float: left;
+}
+
+header div {
+    display: inline;
+}
+
+header div nav {
+    position: absolute;
+    width: 144px;
+    right: 3rem;
+    top: 18px;
+}
+
+header nav {
+    display: inline;
+    margin: 5px 10px;
+}
+
+nav ul {
+    padding-left: 13rem;
+}
+
+#product{
+    position: absolute;
+    position: absolute;
+    padding: 0 3rem;
+    margin-left: 7rem;
+    border-radius: 1rem;
+}
+
+nav ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.carrito{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carrito a {
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    width: 144px;
+    right: 4rem;
+    top: 19px;
+}
+
+.carrito img {
+    position: absolute;
+    right: 32px;
+    width: 20px;
+    top: 16px;
+}
+
+body main {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+main table {
+    width: 100%;
+    text-align: center;
+    padding: 0 8rem;
+}
+
+.product_title{
+    height: 50px;
+    background-color: royalblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.product_preview{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.product_price{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 50px;
+    background-color: darkred;
+    color: green    ;
+}
+
+body footer {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    padding-top: 1rem;
+}
