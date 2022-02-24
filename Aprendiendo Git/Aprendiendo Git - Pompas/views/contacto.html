@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.jpg">
+     <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body class="contactoBody">
+   <!--Nav Bar -->
+    <header>
+      <div>
+        <img class="logo" src="../images/logo.PNG" alt="logo" />
+      </div>
+      <!-- Items de Menu -->
+      <nav>
+        <ul class="navItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="quienes_somos.html">Quienes Somos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <input
+          type="search"
+          name="searchProduct"
+          placeholder="Busca tu producto favorito"
+          id="product"
+        />
+      </nav>
+      <!-- Carrito de Compras -->
+      <div class="carrito">
+        <a href="carrito.html">Carrito de Compras</a>
+        <img src="../images/carrito.png" alt="ver_carrito" />
+      </div>
+    </header>
+    <div class="formulario">    
+        <form action="#">
+            <label class="label" for="nombre">Nombre:
+                <input class="input" type="text" name="nombre" id="">
+            </label><br>
+            <label class="label" for="apellido">Apellido:
+                <input class="input" type="text" name="apellido" id="">
+            </label><br>
+            <label class="label" for="correo">Correo:
+                <input class="input" type="text" name="Correo" id="">
+            </label><br>
+            <label class="label" for="usuario">Usuario:
+                <input class="input" type="text" name="usuario" id="">
+            </label><br>
+            <label class="label" for="password">Contraseña:
+                <input class="input" type="password" name="" id="">
+            </label><br>
+            <label class="label" for="comentarios">Comentarios: <br>
+                <textarea class="input" name="comentarios" id="" cols="30" rows="10"></textarea>
+            </label><br>
+            <label for="edad">Sos mayor de edad?:
+                <label for="si">Si <input type="checkbox" name="edad" id=""></label>
+                <label for="no">No <input type="checkbox" name="no" id=""></label>
+            </label><br>
+            <label for="años">Cuantos años tienes aproximadamente?
+               <select name="años" id="cantidad">
+                <option value="menor18">20</option>
+                <option value="mayor18">25</option>
+                <option value="mayor18">30</option>
+               </select><br>
+            </label>
+            <label for="terminos">Acepto los Terminos y Condiciones <input type="radio" name="terminos" id="">
+            </label>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset Form">
+        </form>
+    </div>
+    <footer>
+      <ul class="pie">
+        <li>
+          Buscanos en nuestras Redes:
+          <ul class="social">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><li>Facebook</li></a
+            >
+            <a href="https://www.instagram.com/" target="_blank"
+              ><li>Instagram</li></a
+            >
+          </ul>
+        </li>
+      </ul>
+    </footer>
+</body>
+</html>
